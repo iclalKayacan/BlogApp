@@ -28,7 +28,4 @@ Bu proje, modern ve estetik bir **blog platformu arayüzü** olarak geliştirilm
 
 ---
 
-## 🔗 API Bilgisi
-
-Blog verileri şu endpoint'ten çekilir:
 
