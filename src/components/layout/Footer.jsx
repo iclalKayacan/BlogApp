@@ -5,14 +5,13 @@ const Footer = () => {
   return (
     <footer className="bg-backgroundGray py-12 text-textDark dark:bg-backgroundDark dark:text-textLight">
       <div className="container mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-4 gap-8 px-8 md:px-12">
-        {/* Company Info */}
         <div className="space-y-3">
           <h2 className="text-2xl font-bold">@ Blog System</h2>
           <p className="text-sm leading-relaxed">
             Donec nec ante nisi. Vestibulum tincidunt lectus sed magna fringilla
             sagittis.
           </p>
-          <p className="text-xs">© 2024 Blog System. All rights reserved.</p>
+          <p className="text-xs">© 2025 Blog System. All rights reserved.</p>
           <div className="text-xs">
             <a href="#" className="hover:underline">
               Terms of Service
@@ -24,9 +23,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Tags */}
         <div className="space-y-3">
-          <h3 className="text-xl font-semibold">Tags</h3>
+          <h3 className="text-xl font-semibold">Etiketler</h3>
           <div className="flex flex-wrap gap-2">
             {[
               "Health",
@@ -48,9 +46,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social */}
         <div className="space-y-3 ml-16">
-          <h3 className="text-xl font-semibold">Social</h3>
+          <h3 className="text-xl font-semibold">Sosyal</h3>
           <ul className="space-y-3">
             <li>
               <a
@@ -89,9 +86,8 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* About */}
         <div className="space-y-3">
-          <h3 className="text-xl font-semibold">About</h3>
+          <h3 className="text-xl font-semibold">Hakkımızda</h3>
           <ul className="space-y-2">
             {["Shop", "Authors", "Sitemap", "About us", "Contact"].map(
               (link) => (

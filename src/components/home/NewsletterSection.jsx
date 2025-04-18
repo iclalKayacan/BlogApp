@@ -5,17 +5,15 @@ const NewsletterSection = () => {
   return (
     <section className="py-12 px-8 md:px-12 bg-white dark:bg-backgroundDark">
       <div className="container mx-auto max-w-[1100px] flex flex-col md:flex-row items-center justify-between bg-white dark:bg-backgroundDark p-6 md:p-8 ">
-        {/* Sol Tarafta Başlık ve Açıklama */}
         <div className="mb-6 md:mb-0 md:w-1/2">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white">
-            Subscribe to Newsletter
+          Bültene Abone Ol
           </h3>
           <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 mt-2">
-            Get our latest news straight into your inbox
-          </p>
+          En son çıkan bloglarımızı doğrudan gelen kutunuza alın
+                    </p>
         </div>
 
-        {/* Sağ Tarafta Email Input ve Buton */}
         <div className="w-full md:w-1/2 flex">
           <input
             type="email"

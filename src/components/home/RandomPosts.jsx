@@ -18,7 +18,6 @@ const RandomPosts = () => {
   return (
     <section className="py-6 bg-backgroundGray dark:bg-backgroundDark min-h-[600px]">
       <div className="container mx-auto px-8 md:px-12 max-w-[1200px] grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
-        {/* Sol Tarafta Büyük Kart */}
         <div
           className="relative col-span-2 h-[475px] bg-cover bg-center rounded-lg"
           style={{
@@ -43,7 +42,6 @@ const RandomPosts = () => {
           </div>
         </div>
 
-        {/* Sağ Tarafta 2 Küçük Kart */}
         <div className="space-y-4">
           {posts.slice(1).map((post) => (
             <div

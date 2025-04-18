@@ -52,7 +52,6 @@ const CreateBlogPage = () => {
       )}
 
       <form onSubmit={handleSubmit} className="space-y-8">
-        {/* Görsel Önizleme */}
         {previewUrl && (
           <div className="w-full h-60 rounded-lg overflow-hidden shadow">
             <img
@@ -63,7 +62,6 @@ const CreateBlogPage = () => {
           </div>
         )}
 
-        {/* Başlık */}
         <div>
           <label className="block text-gray-700 dark:text-gray-200 font-medium mb-2">
             Başlık{" "}
@@ -79,7 +77,6 @@ const CreateBlogPage = () => {
           />
         </div>
 
-        {/* Açıklama */}
         <div>
           <label className="block text-gray-700 dark:text-gray-200 font-medium mb-2">
             İçerik
@@ -93,7 +90,6 @@ const CreateBlogPage = () => {
           ></textarea>
         </div>
 
-        {/* Görsel Yükleme */}
         <div>
           <label className="block text-gray-700 dark:text-gray-200 font-medium mb-2">
             Kapak Görseli
@@ -111,7 +107,6 @@ const CreateBlogPage = () => {
           />
         </div>
 
-        {/* Submit Butonu */}
         <div className="text-center">
           <button
             type="submit"

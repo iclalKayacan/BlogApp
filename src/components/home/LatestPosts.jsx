@@ -118,7 +118,6 @@ const LatestPosts = () => {
             ))}
           </div>
 
-          {/* Reklam Alanı */}
           <div className="mt-8 bg-gray-200 h-[250px] flex items-center justify-center rounded-lg">
             <span className="text-sm text-gray-500">Advertisement</span>
           </div>

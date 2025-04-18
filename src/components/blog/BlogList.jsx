@@ -49,7 +49,6 @@ const BlogList = () => {
     return numbers;
   };
 
-  // Arama filtreleme
   const filteredBlogs = blogs.filter((blog) =>
     blog.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -71,32 +70,30 @@ const BlogList = () => {
           />
         </div>
 
-        {/* Filtreler */}
         <div className="bg-white shadow rounded-lg p-4">
-          <h3 className="font-semibold text-gray-700 mb-4">🗂️ Filtreler</h3>
+          <h3 className="font-semibold text-gray-700 mb-4">🗂️ Kategoriler</h3>
 
           <div className="space-y-2 text-sm text-gray-600">
             <label className="flex items-center gap-2">
-              <input type="checkbox" disabled />
-              React
+              <input type="checkbox" />
+              Yazılım
             </label>
             <label className="flex items-center gap-2">
-              <input type="checkbox" disabled />
-              JavaScript
+              <input type="checkbox" />
+              Sosyal Medya
             </label>
             <label className="flex items-center gap-2">
-              <input type="checkbox" disabled />
-              Web Development
+              <input type="checkbox" />
+              Sağlık{" "}
             </label>
             <label className="flex items-center gap-2">
-              <input type="checkbox" disabled />
-              Next.js
+              <input type="checkbox" />
+              Kozmetik
             </label>
           </div>
         </div>
       </aside>
 
-      {/* SAĞ TARAF: Bloglar */}
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {filteredBlogs.map((blog) => (
@@ -130,7 +127,6 @@ const BlogList = () => {
           ))}
         </div>
 
-        {/* Sayfalama */}
         <div className="flex flex-wrap justify-center items-center gap-2 mt-10">
           <button
             onClick={() => setPage((prev) => Math.max(prev - 1, 1))}

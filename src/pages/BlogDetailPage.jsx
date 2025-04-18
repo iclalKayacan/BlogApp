@@ -38,7 +38,6 @@ const BlogDetailPage = () => {
 
   return (
     <div className="bg-backgroundLight dark:bg-backgroundDark text-textDark dark:text-textLight">
-      {/* Hero Section */}
       <div
         className="relative w-full h-[400px] bg-cover bg-center flex flex-col items-center justify-center text-white text-center"
         style={{
@@ -69,18 +68,14 @@ const BlogDetailPage = () => {
         </div>
       </div>
 
-      {/* İçerik + Sidebar */}
       <div className="max-w-screen-lg mx-auto grid md:grid-cols-[2fr_1fr] gap-8 px-4 py-10">
-        {/* İçerik */}
         <div>
           <article className="prose prose-img:rounded-lg prose-img:mx-auto prose-img:max-h-[500px] prose-img:object-contain prose-p:leading-7 dark:prose-invert max-w-none">
             <div dangerouslySetInnerHTML={{ __html: blog.body_html }} />
           </article>
         </div>
 
-        {/* Sidebar */}
         <aside className="space-y-6">
-          {/* Yazar Kartı */}
           <div className="bg-white dark:bg-gray-800 shadow rounded p-6 text-center">
             <img
               src={
@@ -96,7 +91,6 @@ const BlogDetailPage = () => {
             </p>
           </div>
 
-          {/* Etiketler */}
           {blog.tags && blog.tags.length > 0 && (
             <div className="bg-white dark:bg-gray-800 shadow rounded p-6">
               <h4 className="font-semibold mb-3">Etiketler</h4>

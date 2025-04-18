@@ -15,7 +15,6 @@ const RegisterForm = () => {
 
   return (
     <form className="space-y-4 text-sm">
-      {/* E-posta */}
       <div>
         <label className="block mb-1 font-medium">E-Posta</label>
         <input
@@ -25,7 +24,6 @@ const RegisterForm = () => {
         />
       </div>
 
-      {/* Şifre */}
       <div>
         <label className="block mb-1 font-medium">Şifre</label>
         <input
@@ -39,7 +37,6 @@ const RegisterForm = () => {
         </p>
       </div>
 
-      {/* Cinsiyet */}
       <div>
         <label className="block mb-1 font-medium">Cinsiyet (Opsiyonel)</label>
         <div className="flex gap-4">
@@ -68,7 +65,6 @@ const RegisterForm = () => {
         </div>
       </div>
 
-      {/* Onay kutuları */}
       <div className="space-y-2 text-gray-700">
         <label className="flex items-start gap-2">
           <input
@@ -116,7 +112,6 @@ const RegisterForm = () => {
         ÜYE OL
       </button>
 
-      {/* Açıklama */}
       <p className="text-xs text-center text-gray-500 mt-2">
         Üye Ol’a basarak{" "}
         <a href="#" className="text-blue-600 underline">
@@ -125,7 +120,6 @@ const RegisterForm = () => {
         'nı kabul ediyorum.
       </p>
 
-      {/* Sosyal medya ile kayıt */}
       <div className="flex gap-3 mt-4">
         <button className="flex-1 border border-gray-300 py-3 rounded-lg flex items-center justify-center gap-2 text-sm hover:bg-gray-100 transition">
           <FaFacebook className="text-blue-600 text-lg" />
